@@ -52,7 +52,7 @@
         width: auto;
     }
 
-    .info_sec{
+    .info_sec {
         padding-top: 80px;
     }
 
@@ -65,7 +65,9 @@
         padding-bottom: 0;
     }
 
-
+    .scroll-container {
+        height: auto;
+    }
 }
 
 @media(max-width:575px) {
