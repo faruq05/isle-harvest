@@ -310,6 +310,7 @@ p {
     color: var(--cs-light);
 }
 
+/* footer */
 .footer {
     padding: 30px 0px;
     text-align: center;
@@ -319,6 +320,8 @@ p {
 .cc p {
     font-size: 14px;
 }
+
+/* back to top */
 
 .backtotop {
     background-color: var(--cs-primary);
@@ -341,42 +344,21 @@ p {
     color: var(--cs-bg);
 }
 
-/* .scroll-container {
-    height: 100vh;
-    overflow-y: hidden;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-}
-
-.scroll-area {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-} */
+/* scroll snap */
 
 .scroll-container {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto; /* Enable horizontal scrollbar */
-    overflow-y: hidden; /* Hide vertical scrollbar */
     height: 100vh;
-    scroll-snap-type: x mandatory; /* Enable scroll snapping */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
 }
 
 .scroll-area {
-    flex: 0 0 100vw; /* Each section occupies full viewport width */
-    height: 100vh; /* Each section occupies full viewport height */
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    overflow: auto; /* Enable scrolling within each section */
 }
 
-/* Hide the scrollbar */
-/* .scroll-container::-webkit-scrollbar {
+.scroll-container::-webkit-scrollbar {
     display: none;
-} */
-
-/* Additional styles for scrollbar track and thumb if needed */
-
-
-/* Additional styling for sections if needed */
+    /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+}
