@@ -32,9 +32,9 @@
         padding: 0;
     }
 
-    .hero {
+    /* .hero {
         background-size: auto;
-    }
+    } */
 
     .hero_textbox {
         padding-left: 0;
@@ -77,16 +77,12 @@
         padding: 30px 10px;
     }
 
-    .nav-link{
+    .nav-link {
         text-align: center;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
         padding: 0;
-    }
-
-    .hero {
-        background-size: auto;
     }
 
     .hero_content {
@@ -99,11 +95,6 @@
 
     .hero_text h2 {
         padding: 10px 0px;
-    }
-
-    .hero_content {
-        flex-direction: column;
-        padding: 20px 0px;
     }
 
     .hero_image {
