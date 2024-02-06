@@ -33,6 +33,7 @@ p {
     --cs-bg: #d1eac8;
     --cs-text: #1e1e1e;
     --cs-light: #7eb027;
+    --cs-white:#fff;
 }
 
 h1 {
@@ -40,7 +41,7 @@ h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
     color: var(--cs-primary);
-    letter-spacing: 8px;
+    /* letter-spacing: 8px; */
 }
 
 h2 {
@@ -64,7 +65,7 @@ p {
     padding: 10px 0px;
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--cs-white);
     box-shadow: 0px 0px 20px 20px #0000000a;
 }
 
@@ -92,28 +93,49 @@ p {
 }
 
 .hero {
-    background: url(../images/bgpt.png);
+    /* background: url(../images/bgpt.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom center;
+    background-position: bottom center; */
+    background-color: var(--cs-bg);
 }
 
-.hero_content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.custom-shape-divider-bottom-1707214183 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
-.hero_image {
-    text-align: end;
+.custom-shape-divider-bottom-1707214183 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 166px;
+    transform: rotateY(180deg);
 }
+
+.custom-shape-divider-bottom-1707214183 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.hero_content {
+    text-align: center;
+}
+
+.hero_content h2 {
+    margin: 10px 0px;
+}
+
 
 .hero_text {
     padding-left: 50px;
 }
 
 .btn-cstm {
-    background-color: var(--cs-bg);
+    background-color: var(--cs-primary);
     font-weight: 700;
     font-size: 16px;
     text-transform: capitalize;
@@ -121,6 +143,7 @@ p {
     border-radius: 10px;
     margin-top: 15px;
     border: 2px solid transparent;
+    color:var(--cs-white) ;
 }
 
 .btn-cstm:hover {
@@ -248,7 +271,7 @@ p {
 }
 
 .social_icon ul li:hover i {
-    color: #fff;
+    color: var(--cs-white);
 }
 
 .social_icon ul li a {}
@@ -288,4 +311,3 @@ p {
 .btn-top i {
     color: var(--cs-bg);
 }
-

@@ -44,6 +44,10 @@
         padding-left: 20px;
     }
 
+    .custom-shape-divider-bottom-1707214183 svg {
+        width: auto;
+    }
+
     .info {
         flex-direction: column;
         text-align: center;
@@ -71,6 +75,10 @@
 
     .cp60 {
         padding: 30px 10px;
+    }
+
+    .nav-link{
+        text-align: center;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -101,6 +109,11 @@
     .hero_image {
         margin-top: 30px;
     }
+
+    .custom-shape-divider-bottom-1707214183 svg {
+        width: auto;
+    }
+
 
     .about_content p {
         width: 100%;
