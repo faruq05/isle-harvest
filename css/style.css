@@ -43,7 +43,7 @@ p {
     --cs-bg: #d1eac8;
     --cs-text: #1e1e1e;
     --cs-light: #7eb027;
-    --cs-white:#fff;
+    --cs-white: #fff;
 }
 
 h1 {
@@ -175,7 +175,7 @@ p {
     border-radius: 10px;
     margin-top: 15px;
     border: 2px solid transparent;
-    color:var(--cs-white) ;
+    color: var(--cs-white);
 }
 
 .btn-cstm:hover {
@@ -184,7 +184,10 @@ p {
 
 /* about starts */
 .about {
-    background: url(../images/quote_patern.png);
+    background: url(../images/bgpt2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
 }
 
 .about .row {
@@ -346,14 +349,14 @@ p {
     color: var(--cs-bg);
 }
 
-.scroll-container{
+.scroll-container {
     height: 100vh;
     overflow-y: hidden;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
 }
 
-.scroll-area{
+.scroll-area {
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
